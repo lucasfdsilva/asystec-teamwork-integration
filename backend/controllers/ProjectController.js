@@ -54,8 +54,7 @@ module.exports = {
                             }
                         }
                     }).then(res => {
-                        console.log("Project ID: ", res.data.id);
-                        console.log("STATUS: ", res.data.STATUS);
+                        console.log("Project ID: ", res.data.id, "STATUS: ", res.data.STATUS);
 
                     }).catch(err => {
                         console.log("error ", err);
@@ -132,8 +131,7 @@ module.exports = {
                                             }
                                         }
                                     }).then(res => {
-                                        console.log("Project ID: ", res.data.id);
-                                        console.log("STATUS: ", res.data.STATUS);
+                                        console.log("New Project Created: Project ID: ", res.data.id, "STATUS: ", res.data.STATUS);
 
                                     }).catch(err => {
                                         console.log("error ", err);
